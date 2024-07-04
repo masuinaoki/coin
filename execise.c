@@ -27,5 +27,11 @@ int main() {
     // 結果を表示
     printf("Heads: %d, Tails: %d\n", heads, tails);
 
+    if(heads > tails){
+      printf("You win\n");
+    }else{
+      printf("You missing\n");
+    }
+
     return 0;
 }
