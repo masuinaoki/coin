@@ -6,6 +6,12 @@ int main() {
     int heads = 0;
     int tails = 0;
     int result;
+    char name[100];
+
+    printf("Who are you?\n>");
+    scanf("%s", name);
+    printf("Hello, %s!\n", name);
+
 
     // 初期化
     srand(time(NULL));
